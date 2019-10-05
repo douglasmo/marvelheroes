@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart';
 
 class Helper {
-  static String publicApiKey = "x";
-  static String privateApiKey = "x";
+  static String publicApiKey = "8a66fe6fafa5f02f639de71ba4e40118";
+  static String privateApiKey = "ba0d2d8b1b4d29aff016dd165a0497af68fadbc0";
 }
 
 var url = "http://gateway.marvel.com/v1/public/";

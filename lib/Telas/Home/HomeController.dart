@@ -42,6 +42,14 @@ class HomeController extends BlocBase {
     });
   }
 
+  atualizaQuadros(Personagem perso) {
+    for (var a in listaPersonagem) {
+      a.clicked = false;
+    }
+    perso.clicked = true;
+    inPerson.add(listaPersonagem);
+  }
+
   @override
   void dispose() {
     blocPersoagem.close();
